@@ -1,0 +1,15 @@
+# requirements.txt
+# Simulador Inteligente de Ocupación Hospitalaria
+# Stack aprobado: F3 (Opción B) + F4-A
+# Python 3.12
+#
+# Instalar con:
+#   pip install -r requirements.txt
+# O con uv (recomendado):
+#   uv pip install -r requirements.txt
+
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+matplotlib==3.10.8
+seaborn==0.13.2
