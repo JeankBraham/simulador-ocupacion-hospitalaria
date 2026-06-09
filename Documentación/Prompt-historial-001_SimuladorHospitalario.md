@@ -247,10 +247,10 @@ Empecemos con el entregable 1 — documentación de reglas. No escribimos códig
 Estamos iniciando la Fase 4-B del proyecto CRISP-DM/S: Modelado del modelo predictivo de IA (SEMMA·Model).
 
 <estado_actual>
-Entregables F1, F2, F3 y F4-A completados: [ENTREGABLES_COMPLETADOS]
-Stack activo esta fase: [STACK_ACTUAL]
-Bloqueantes conocidos: [BLOQUEANTES]
-Código disponible: [CODIGO_ADJUNTO]
+Entregables F1, F2, F3 y F4-A completados: Listos.
+Stack activo esta fase: Python 3.12, numpy 2.4, scipy 1.17, pandas 3.0, matplotlib 3.10, seaborn 0.13 (pero si necesitas más añadelos y documentalos)
+Bloqueantes conocidos: Ninguno.
+Código disponible: Generador pacientes, EDA, sistema experto y test de sistema experto.
 </estado_actual>
 
 <tarea_f4b>
@@ -278,10 +278,10 @@ Empecemos con el entregable 1 — definición del problema de predicción.
 Estamos iniciando la Fase 5 del proyecto CRISP-DM/S: Evaluación (SEMMA·Assess).
 
 <estado_actual>
-Entregables F1 a F4 completados: [ENTREGABLES_COMPLETADOS]
-Stack activo esta fase: [STACK_ACTUAL]
-Bloqueantes conocidos: [BLOQUEANTES]
-Código disponible: [CODIGO_ADJUNTO]
+Entregables F1 a F4 completados: Listos.
+Stack activo esta fase: Python 3.12, numpy 2.4, scipy 1.17, pandas 3.0, matplotlib 3.10, seaborn 0.13 (pero si necesitas más añadelos y documentalos)
+Bloqueantes conocidos: Ninguno.
+Código disponible: generador_pacientes, generador_dataset, el dataset, modelo final/lineal/rf, sistema experto, entrenar_modelo, metricas_f4b, dime cuales necesitas.
 </estado_actual>
 
 <tarea_f5>

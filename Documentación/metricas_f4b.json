@@ -1,0 +1,81 @@
+{
+  "modelo_lineal": {
+    "modelo": "Regresion Lineal",
+    "rmse": 2.6429,
+    "mae": 2.0639,
+    "n_test": 461
+  },
+  "modelo_rf": {
+    "modelo": "Random Forest",
+    "rmse": 2.7797,
+    "mae": 2.1213,
+    "n_test": 461
+  },
+  "modelo_ganador": "lineal",
+  "nombre_ganador": "Regresion Lineal",
+  "coeficientes_lineal": {
+    "O_t": -173.033929,
+    "E_t": -234.962386,
+    "P_t": -100.028781,
+    "C_t": -47.068498,
+    "I_t": 510.911969,
+    "llegadas_t": 0.321685,
+    "altas_t": -0.256451,
+    "traslados_t": -0.873512,
+    "cola_espera_t": 0.096215,
+    "O_lag1": 2.189061,
+    "O_lag2": -0.17953,
+    "O_lag3": -1.386623,
+    "O_lag4": -0.16956,
+    "escenario_alta_demanda": 1.554696,
+    "escenario_crisis": 2.860684
+  },
+  "intercepto_lineal": 60.002528,
+  "importancias_rf": {
+    "O_t": 0.912938,
+    "E_t": 0.00036,
+    "P_t": 0.00378,
+    "C_t": 0.001314,
+    "I_t": 0.013856,
+    "llegadas_t": 0.001543,
+    "altas_t": 0.001295,
+    "traslados_t": 0.001071,
+    "cola_espera_t": 0.000519,
+    "O_lag1": 0.03326,
+    "O_lag2": 0.019396,
+    "O_lag3": 0.00339,
+    "O_lag4": 0.004067,
+    "escenario_alta_demanda": 0.001714,
+    "escenario_crisis": 0.001496
+  },
+  "features": [
+    "O_t",
+    "E_t",
+    "P_t",
+    "C_t",
+    "I_t",
+    "llegadas_t",
+    "altas_t",
+    "traslados_t",
+    "cola_espera_t",
+    "O_lag1",
+    "O_lag2",
+    "O_lag3",
+    "O_lag4",
+    "escenario_alta_demanda",
+    "escenario_crisis"
+  ],
+  "target": "target_O_t4",
+  "seed": 42,
+  "test_size": 0.2,
+  "n_train": 1843,
+  "n_test": 461,
+  "rutas": {
+    "dataset": "/home/claude/dataset_f4b.parquet",
+    "pkl_lineal": "/home/claude/modelo_lineal_f4b.pkl",
+    "pkl_rf": "/home/claude/modelo_rf_f4b.pkl",
+    "pkl_ganador": "/home/claude/modelo_final_f4b.pkl",
+    "fig_prediccion": "/home/claude/fig_prediccion_f4b.png",
+    "fig_importancia": "/home/claude/fig_importancia_f4b.png"
+  }
+}
