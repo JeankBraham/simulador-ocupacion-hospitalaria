@@ -309,10 +309,16 @@ Empecemos con el entregable 1. Adjunta el código actual del simulador para revi
 Estamos iniciando la Fase 6 del proyecto CRISP-DM/S: Despliegue del prototipo web.
 
 <estado_actual>
-Entregables F1 a F5 completados: [ENTREGABLES_COMPLETADOS]
-Stack activo esta fase: [STACK_ACTUAL]
-Bloqueantes conocidos: [BLOQUEANTES]
-Código disponible: [CODIGO_ADJUNTO]
+Entregables F1 a F5 completados: F1 — Marco conceptual hospitalario colombiano, definición formal del problema, criterios de éxito CE-A/B/C/D.
+F2 — Diccionario de datos, distribuciones probabilísticas, modelo conceptual de entidades (Paciente, Cama, Area, Piso).
+F3 — generador_pacientes.py, EDA (eda_pacientes.py), calibración de distribuciones.
+F4-A — sistema_experto.py (19 reglas, 6 capas, modo automático y asistido, 33 pruebas unitarias).
+F4-B — entrenar_modelo_f4b.py, modelo_final_f4b.pkl (Regresión Lineal, RMSE=2.64 pp, SEED=42).
+F5 — evaluar_escenarios_f5.py, 3 figuras fig_f5_*.png, Fase_5_Evaluacion.pdf. Todos los riesgos mitigados.
+Stack activo esta fase: Python 3.12 · numpy 2.4 · pandas 3.0 · matplotlib 3.10 · seaborn 0.13 · scikit-learn 1.8 · joblib 1.5 · reportlab 4.4, proponer stack web — Flask/Streamlit/Dash a confirmar.
+Bloqueantes conocidos: Ninguno. Decisión de despliegue documentada en D_F5_009 y Sección 8 del PDF F5.
+Código disponible: sistema_experto.py · generador_pacientes.py · modelo_final_f4b.pkl ·
+  evaluar_escenarios_f5.py · generar_pdf_f5.py, dime que otro te podria faltar
 </estado_actual>
 
 <tarea_f6>
